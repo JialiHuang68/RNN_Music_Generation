@@ -1,0 +1,21 @@
+# Core libraries
+torch>=2.0.0
+numpy>=1.21.0
+matplotlib>=3.4.0
+tqdm
+scipy
+
+# Visualization and notebook utilities
+ipython
+comet-ml
+
+# MIT deep learning utilities
+mitdeeplearning
+
+# ABC to MIDI conversion (used in notebooks with apt-get)
+# These are system-level dependencies, not pip-installable:
+# abcmidi
+# timidity
+
+# (Optional) For saving audio as .wav
+soundfile
